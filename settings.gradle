@@ -1,0 +1,2 @@
+include ':AutoChessTeamGenerator', ':AutoChessGenerator'
+project(':AutoChessGenerator').projectDir = new File('app')

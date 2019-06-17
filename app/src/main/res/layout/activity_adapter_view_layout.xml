@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".adapter_view_layout">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Team X"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/comboView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Combos"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/combo1Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comboView">
+
+        <TextView
+            android:id="@+id/combo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:text="Witch Doctor" />
+
+        <TextView
+            android:id="@+id/combo1amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            android:text="x3" />
+
+        <TextView
+            android:id="@+id/combo2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:text="Witch Doctor" />
+
+        <TextView
+            android:id="@+id/combo2amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            android:text="x3" />
+
+        <TextView
+            android:id="@+id/combo3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:text="Witch Doctor" />
+
+        <TextView
+            android:id="@+id/combo3amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            android:text="x3" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/combo4Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/combo1Content">
+
+        <TextView
+            android:id="@+id/combo4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:text="Witch Doctor" />
+
+        <TextView
+            android:id="@+id/combo4amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            android:text="x3" />
+
+        <TextView
+            android:id="@+id/combo5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:text="Witch Doctor" />
+
+        <TextView
+            android:id="@+id/combo5amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            android:text="x3" />
+
+        <TextView
+            android:id="@+id/combo6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:text="Witch Doctor" />
+
+        <TextView
+            android:id="@+id/combo6amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            android:text="x3" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/combo7Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/combo4Content">
+
+        <TextView
+            android:id="@+id/combo7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:text="Witch Doctor" />
+
+        <TextView
+            android:id="@+id/combo7amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            android:text="x3" />
+
+        <TextView
+            android:id="@+id/combo8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:text="Witch Doctor" />
+
+        <TextView
+            android:id="@+id/combo8amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            android:text="x3" />
+
+        <TextView
+            android:id="@+id/combo9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:text="Witch Doctor" />
+
+        <TextView
+            android:id="@+id/combo9amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            android:text="x3" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/pieceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Pieces"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/combo7Content" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/colContent"
+        android:layout_width="402dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintBottom_toTopOf="@+id/piece1Content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pieceView">
+
+
+        <TextView
+            android:id="@+id/colName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Name" />
+
+
+        <TextView
+            android:id="@+id/colRace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Race" />
+
+        <TextView
+            android:id="@+id/colRace2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="Race" />
+
+        <TextView
+            android:id="@+id/colClass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="Class" />
+
+        <TextView
+            android:id="@+id/colCost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="23"
+            android:text="Cost" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece1Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colContent">
+
+
+        <TextView
+            android:id="@+id/piece1Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece1Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece1Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece1Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece1Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece2Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piece1Content">
+
+
+        <TextView
+            android:id="@+id/piece2Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece2Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece2Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece2Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece2Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece3Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piece2Content">
+
+
+        <TextView
+            android:id="@+id/piece3Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece3Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece3Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece3Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece3Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece4Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piece3Content">
+
+
+        <TextView
+            android:id="@+id/piece4Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece4Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece4Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece4Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece4Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece5Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piece4Content">
+
+
+        <TextView
+            android:id="@+id/piece5Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece5Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece5Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece5Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece5Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece6Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piece5Content">
+
+
+        <TextView
+            android:id="@+id/piece6Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece6Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece6Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece6Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece6Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece7Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piece6Content">
+
+
+        <TextView
+            android:id="@+id/piece7Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece7Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece7Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece7Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece7Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece8Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piece7Content">
+
+
+        <TextView
+            android:id="@+id/piece8Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece8Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece8Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece8Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece8Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece9Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piece8Content">
+
+
+        <TextView
+            android:id="@+id/piece9Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece9Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece9Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece9Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece9Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/piece10Content"
+        android:layout_width="402dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piece9Content">
+
+
+        <TextView
+            android:id="@+id/piece10Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:text="Witch Doctor" />
+
+
+        <TextView
+            android:id="@+id/piece10Race"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="19.7"
+            android:text="Troll" />
+
+        <TextView
+            android:id="@+id/piece10Race2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/piece10Class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Warlock" />
+
+        <TextView
+            android:id="@+id/piece10Cost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:text="2" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

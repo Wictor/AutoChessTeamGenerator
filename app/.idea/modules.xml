@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoChessGenerator.iml" filepath="$PROJECT_DIR$/AutoChessGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AutoChessGenerator-AutoChessTeamGenerator.iml" filepath="$PROJECT_DIR$/../AutoChessGenerator-AutoChessTeamGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AutoChessTeamGenerator/AutoChessTeamGenerator.iml" filepath="$PROJECT_DIR$/../AutoChessTeamGenerator/AutoChessTeamGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AutoChessTeamGenerator/AutoChessTeamGenerator-AutoChessTeamGenerator.iml" filepath="$PROJECT_DIR$/../AutoChessTeamGenerator/AutoChessTeamGenerator-AutoChessTeamGenerator.iml" />
+    </modules>
+  </component>
+</project>
